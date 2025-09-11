@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/clock.js" defer></script>
 </head>
 <body>
-    <main>
+    <video autoplay loop muted id="myVideo">
+        <source src="./imgs/jake_the_dog.mp4" type="video/mp4">
+    </video>
         <div id="container" class="container">
-            
+            <div class="clock">
+                <span id="clockTime"></span>
+                <p id="todaysDate"></p>
+            </div>
+            <form class="login-form">
+                <div class="username">
+                    <i></i>
+                    <input type="url" name="username" id="username" placeholder="athena" required>
+                </div>
+                <div class="password">
+                    <i></i>
+                    <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                </div>
+                <button id="loginButton">
+                    Login
+                </button>
+                <div class="recover-section">
+                    <p>
+                        Forgot
+                        <span id="forgotUser">Username</span>
+                        /
+                        <span id="forgotPass">Password</span>
+                        ?
+                    </p>
+                </div>
+            </form>
+            <div class="create-account">
+                <p>Create your Account</p>
+                <i>&#8674;</i>
+            </div>
         </div>
-    </main>
 </body>
 </html>
