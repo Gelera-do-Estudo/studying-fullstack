@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/clock.css">
+    <link rel="stylesheet" href="./css/form.css">
 
     <script src="./js/clock.js" defer></script>
 </head>
@@ -19,13 +20,15 @@
                 <p id="todaysDate"></p>
             </div>
             <form class="login-form">
-                <div class="username">
-                    <i></i>
-                    <input type="url" name="username" id="username" placeholder="athena" required>
-                </div>
-                <div class="password">
-                    <i></i>
-                    <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                <div class="login">
+                    <div class="username bg">
+                        <img src="./imgs/user.svg" alt="userimg">
+                        <input type="url" name="username" id="username" placeholder="Exemplo" required>
+                    </div>
+                    <div class="password bg">
+                        <img src="./imgs/password.svg" alt="passwordimg">
+                        <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                    </div>
                 </div>
                 <button id="loginButton">
                     Login

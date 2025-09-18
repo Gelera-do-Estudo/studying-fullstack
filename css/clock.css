@@ -5,3 +5,12 @@
     justify-content: center;
     gap: 1rem;
 }
+
+.container .clock span {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.container .clock p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
